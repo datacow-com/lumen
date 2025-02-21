@@ -16,6 +16,21 @@ export default {
   },
   plugins: [
     {
+      resolve: `gatsby-plugin-react-i18next`,
+      options: {
+        localeJsonSourceName: `locales`, // JSON 语言包存放的目录
+        languages: [`en`, `ja`], // 语言列表：英语 + 日语
+        defaultLanguage: `ja`, // 默认语言
+        siteUrl: `https://blog.datacow.com`,
+        trailingSlash: 'always',
+        i18nextOptions: {
+          interpolation: {
+            escapeValue: false,
+          },
+        },
+      },
+    },
+    {
       resolve: "gatsby-source-filesystem",
       options: {
         name: "content",

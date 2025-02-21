@@ -1,29 +1,29 @@
 {
-  "title": "Blog by John Doe",
-  "url": "https://lumen.alxshelepenok.com",
-  "description": "Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.",
+  "title": "Instagram、TikTok運用代行サービス",
+  "url": "https://blog.datacow.com",
+  "description": "Instagram、TikTok運用代行サービス",
   "copyright": "© All rights reserved.",
   "googleAnalyticsId": "UA-73379983-2",
   "pathPrefix": "/",
   "feedLimit": 4,
   "menu": [
     {
-      "title": "Articles",
+      "title": "記事",
       "url": "/"
     },
     {
-      "title": "About me",
+      "title": "私について",
       "url": "/pages/about"
     },
     {
-      "title": "Contact me",
+      "title": "お問い合わせ",
       "url": "/pages/contacts"
     }
   ],
   "author": {
-    "title": "John Doe",
+    "title": "Mike Zhang",
     "photo": "/logo.png",
-    "description": "Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.",
+    "description": "Instagram、TikTok運用代行サービス",
     "contacts": [
       {
         "name": "github",
